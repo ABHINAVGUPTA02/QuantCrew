@@ -10,7 +10,7 @@ def run():
         "date": datetime.datetime.now().strftime("%Y-%m-%d"),   
     }
      # Create and run the crew
-    result = StockPicker().crew().kickoff(inputs=inputs)
+    result = QuantCrew().crew().kickoff(inputs=inputs)
 
     # Print the result
     print("\n\n=== FINAL DECISION ===\n\n")
